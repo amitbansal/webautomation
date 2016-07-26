@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeTest]" parallel="tests">
+  <parameter name="browserType" value="firefox"/>
+  <listeners>
+    <listener class-name="testing.msn.homepage.ExtentReporterNG"/>
+  </listeners>
+  <test name="Search on FF(failed)" parallel="tests">
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="testing.msn.homepage.MSNTestClass">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="TestOrganicSearchNew" invocation-numbers="2"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testing.msn.homepage.MSNTestClass -->
+    </classes>
+  </test> <!-- Search on FF(failed) -->
+</suite> <!-- Failed suite [SmokeTest] -->

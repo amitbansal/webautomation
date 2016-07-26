@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" parallel="tests">
+  <parameter name="nodeURL" value="http://192.168.1.80:5555/wd/hub"/>
+  <parameter name="browserType" value="firefox"/>
+  <test name="Search on FF(failed)" parallel="tests">
+    <parameter name="nodeURL" value="http://192.168.1.80:5555/wd/hub"/>
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="testing.msn.homepage.MSNTestClass">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="TestOrganicSearch" invocation-numbers="2"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testing.msn.homepage.MSNTestClass -->
+    </classes>
+  </test> <!-- Search on FF(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

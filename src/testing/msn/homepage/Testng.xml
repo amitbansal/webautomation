@@ -1,0 +1,51 @@
+<suite name="TestSuite" parallel="tests" thread-count="5">
+<listeners>
+        <listener class-name="testing.msn.homepage.ExtentReporterNG" />
+ </listeners>
+<test name="Search on FF" preserve-order="true">
+<parameter name="browserType" value="firefox"></parameter>
+<parameter name="nodeURL" value="http://192.168.1.80:5555/wd/hub"></parameter>
+<classes>
+	<class name="testing.msn.homepage.MSNTestClass">
+		<methods>
+		<include name="TestOrganicSearch" />			
+		</methods>
+	</class>
+</classes>
+</test>
+
+<test name="Search on android" preserve-order="true">
+<parameter name="browserType" value="androidmobile"></parameter>
+<parameter name="nodeURL" value="http://192.168.1.58:4723/wd/hub"></parameter>
+<classes>
+	<class name="MSNTestClass">
+		<methods>
+		<include name="TestOrganicSearch" />			
+		</methods>
+	</class>
+</classes>
+</test>
+<test name="Search on chrome" preserve-order="true">
+<parameter name="browserType" value="chrome"></parameter>
+<parameter name="nodeURL" value="http://192.168.1.79:5555/wd/hub"></parameter>
+<classes>
+	<class name="MSNTestClass">
+		<methods>
+		<include name="TestOrganicSearch" />			
+		</methods>
+	</class>
+</classes>
+</test>
+<test name="Search on ie" preserve-order="true">
+<parameter name="browserType" value="internet explorer"></parameter>
+<parameter name="nodeURL" value="http://192.168.1.58:5555/wd/hub"></parameter>
+<classes>
+	<class name="MSNTestClass">
+		<methods>
+		<include name="TestOrganicSearch" />			
+		</methods>
+	</class>
+</classes>
+</test>
+
+ </suite> 

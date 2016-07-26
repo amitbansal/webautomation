@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeTest" duration-ms="73304" started-at="2016-07-26T05:43:20Z" finished-at="2016-07-26T05:44:33Z">
+    <groups>
+    </groups>
+    <test name="Search on FF" duration-ms="73304" started-at="2016-07-26T05:43:20Z" finished-at="2016-07-26T05:44:33Z">
+      <class name="testing.msn.homepage.MSNTestClass">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testing.msn.homepage.MSNTestClass@1ed4004b]" name="beforeTest" is-config="true" duration-ms="12" started-at="2016-07-25T22:43:20Z" finished-at="2016-07-25T22:43:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b552920]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testing.msn.homepage.MSNTestClass@1ed4004b]" name="beforeClass" is-config="true" duration-ms="2323" started-at="2016-07-25T22:43:20Z" finished-at="2016-07-25T22:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testing.msn.homepage.MSNTestClass@1ed4004b]" name="beforeMethod" is-config="true" duration-ms="7490" started-at="2016-07-25T22:43:22Z" finished-at="2016-07-25T22:43:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testing.msn.homepage.MSNTestClass.TestOrganicSearchNew(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TestOrganicSearchNew(java.lang.String, java.lang.String)[pri:0, instance:testing.msn.homepage.MSNTestClass@1ed4004b]" name="TestOrganicSearchNew" duration-ms="10511" started-at="2016-07-25T22:43:30Z" data-provider="markets" finished-at="2016-07-25T22:43:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.msn.com/es-xl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[América Latina (español)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOrganicSearchNew -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testing.msn.homepage.MSNTestClass@1ed4004b]" name="tearDown" is-config="true" duration-ms="918" started-at="2016-07-25T22:43:40Z" finished-at="2016-07-25T22:43:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestOrganicSearchNew status=SUCCESS method=MSNTestClass.TestOrganicSearchNew(java.lang.String, java.lang.String)[pri:0, instance:testing.msn.homepage.MSNTestClass@1ed4004b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testing.msn.homepage.MSNTestClass@1ed4004b]" name="beforeMethod" is-config="true" duration-ms="7233" started-at="2016-07-25T22:43:41Z" finished-at="2016-07-25T22:43:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testing.msn.homepage.MSNTestClass.TestOrganicSearchNew(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TestOrganicSearchNew(java.lang.String, java.lang.String)[pri:0, instance:testing.msn.homepage.MSNTestClass@1ed4004b]" name="TestOrganicSearchNew" duration-ms="15646" started-at="2016-07-25T22:43:48Z" data-provider="markets" finished-at="2016-07-25T22:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.msn.com/es-ar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Argentina (español)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOrganicSearchNew -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testing.msn.homepage.MSNTestClass@1ed4004b]" name="tearDown" is-config="true" duration-ms="726" started-at="2016-07-25T22:44:04Z" finished-at="2016-07-25T22:44:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestOrganicSearchNew status=SUCCESS method=MSNTestClass.TestOrganicSearchNew(java.lang.String, java.lang.String)[pri:0, instance:testing.msn.homepage.MSNTestClass@1ed4004b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testing.msn.homepage.MSNTestClass@1ed4004b]" name="beforeMethod" is-config="true" duration-ms="6744" started-at="2016-07-25T22:44:05Z" finished-at="2016-07-25T22:44:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testing.msn.homepage.MSNTestClass.TestOrganicSearchNew(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="TestOrganicSearchNew(java.lang.String, java.lang.String)[pri:0, instance:testing.msn.homepage.MSNTestClass@1ed4004b]" name="TestOrganicSearchNew" duration-ms="16144" started-at="2016-07-25T22:44:12Z" data-provider="markets" finished-at="2016-07-25T22:44:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.msn.com/en-au]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Australia (English)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element is not clickable at point (979.36669921875, 33.80000305175781). Other element would receive the click: <div style="display: block;" class="promobanner win10promo popup " data-aop="win10promo_win10promo" data-module-id="startpage|modulescontainer|modulescontainer|win10promo|win10promo" data-id="15" data-m="{&quot;i&quot;:15,&quot;n&quot;:&quot;win10promo&quot;,&quot;t&quot;:&quot;win10promo&quot;}" data-trackingparam="msn.1"></div>
+Command duration or timeout: 418 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'AmitB-DellXPS', ip: '192.168.1.80', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e7a4e5d5-48b3-4174-b0b1-62ad0c58a1a1
+Command duration or timeout: 1.26 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'AmitB-DellXPS', ip: '192.168.1.80', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=06f302b7-2d9d-49ae-8194-032120550742, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 06f302b7-2d9d-49ae-8194-032120550742]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (979.36669921875, 33.80000305175781). Other element would receive the click: <div style="display: block;" class="promobanner win10promo popup " data-aop="win10promo_win10promo" data-module-id="startpage|modulescontainer|modulescontainer|win10promo|win10promo" data-id="15" data-m="{&quot;i&quot;:15,&quot;n&quot;:&quot;win10promo&quot;,&quot;t&quot;:&quot;win10promo&quot;}" data-trackingparam="msn.1"></div>
+Command duration or timeout: 418 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'AmitB-DellXPS', ip: '192.168.1.80', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e7a4e5d5-48b3-4174-b0b1-62ad0c58a1a1
+Command duration or timeout: 1.26 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'AmitB-DellXPS', ip: '192.168.1.80', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=06f302b7-2d9d-49ae-8194-032120550742, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 06f302b7-2d9d-49ae-8194-032120550742
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at testing.msn.homepage.HomepageElements.clickSearchButton(HomepageElements.java:53)
+	at testing.msn.homepage.MSNTestClass.TestOrganicSearchNew(MSNTestClass.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'AmitB-DellXPS', ip: '192.168.1.80', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_91'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	... 25 more
+Caused by: org.openqa.selenium.WebDriverException: Element is not clickable at point (979.36669921875, 33.80000305175781). Other element would receive the click: <div style="display: block;" class="promobanner win10promo popup " data-aop="win10promo_win10promo" data-module-id="startpage|modulescontainer|modulescontainer|win10promo|win10promo" data-id="15" data-m="{&quot;i&quot;:15,&quot;n&quot;:&quot;win10promo&quot;,&quot;t&quot;:&quot;win10promo&quot;}" data-trackingparam="msn.1"></div>
+Command duration or timeout: 418 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'AmitB-DellXPS', ip: '192.168.1.80', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e7a4e5d5-48b3-4174-b0b1-62ad0c58a1a1
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'AmitB-DellXPS', ip: '192.168.1.80', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_91'
+Driver info: driver.version: RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	... 3 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOrganicSearchNew -->
+        <test-method status="FAIL" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testing.msn.homepage.MSNTestClass@1ed4004b]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-07-25T22:44:28Z" finished-at="2016-07-25T22:44:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestOrganicSearchNew status=FAILURE method=MSNTestClass.TestOrganicSearchNew(java.lang.String, java.lang.String)[pri:0, instance:testing.msn.homepage.MSNTestClass@1ed4004b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at testing.msn.homepage.MSNTestClass.tearDown(MSNTestClass.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testing.msn.homepage.MSNTestClass -->
+    </test> <!-- Search on FF -->
+  </suite> <!-- SmokeTest -->
+</testng-results>
