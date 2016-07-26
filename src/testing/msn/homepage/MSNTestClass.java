@@ -50,7 +50,7 @@ public class MSNTestClass {
 	}
 	
 	
-	@DataProvider(name = "markets")
+	@DataProvider(name = "markets_data_provider")
 	public Object[][] dataProvider() {
 		Object[][] testData = ExcelUtility.getTestData("markets");
 		return testData;
@@ -71,7 +71,7 @@ public class MSNTestClass {
 		  
 	}
 	
-	@Test(dataProvider="markets")	
+	@Test(dataProvider="markets_data_provider")	
 	public void TestOrganicSearch(String URL,String market){		
 		driver.get(URL);
 	 	HomepageElements.fillSearchBox(driver, "scratch mit");
