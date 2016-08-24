@@ -1,6 +1,6 @@
 package testing.msn.homepage;
 
-public class MobilePageHelper implements IHomePage {
+public class MobilePageHelper extends BasePage implements IHomePage {
 
 	@Override
 	public void verifyWeather() {

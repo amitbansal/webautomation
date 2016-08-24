@@ -3,7 +3,7 @@ package testing.msn.homepage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Win10PageHelper implements IHomePage {
+public class Win10PageHelper extends BasePage implements IHomePage {
 
 	/**
 	 * 

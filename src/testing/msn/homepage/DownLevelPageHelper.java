@@ -1,6 +1,6 @@
 package testing.msn.homepage;
 
-public class DownLevelPageHelper implements IHomePage {
+public class DownLevelPageHelper extends BasePage implements IHomePage {
 
 	
 	@Override
